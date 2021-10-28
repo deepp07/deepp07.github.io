@@ -1,9 +1,36 @@
 body {
-    background:gray;
+    background: lightsteelblue;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.assignment {
+    display: flex;
+    padding:10px;
+    margin:10px;
+    background:black
+}
+
+.assignment img {
+    width:200px;
+    margin:10px;
+    border:4px solid azure;
 }
 
 hl {
     color:darkred;
     text-align: center;
 }
+
+h1:hover {
+    color:cadetblue
+}
+
+a {
+    text-decoration:none;
+    color:azure;
+}
+
+a:hover {
+    color:cadetblue
+}
+
